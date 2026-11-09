@@ -67,3 +67,22 @@ streamlit run app.py
 ```
 
 Open your browser and navigate to `http://localhost:8501`.
+
+---
+
+## Run with Docker
+
+To build and run using Docker:
+
+```bash
+docker build -t cancer-risk-predictor .
+docker run -p 8501:8501 cancer-risk-predictor
+```
+
+Or using Docker Compose:
+
+```bash
+docker compose up -d
+```
+
+
